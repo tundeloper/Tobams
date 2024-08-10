@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import StyledNav from "@/components/nav";
+import SwipeableTextMobileStepper from "@/components/slider/slider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,8 +11,8 @@ export default function Home() {
       // className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
       <StyledNav />
-      <div style={{background: 'red'}}>
-      sss
+      <div style={{background: '#e7fafe',}}>
+        <SwipeableTextMobileStepper />
       </div>
     </main>
   );
