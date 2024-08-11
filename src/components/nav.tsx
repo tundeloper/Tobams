@@ -10,9 +10,9 @@ interface navProps {
 
 const nav : React.FC<navProps> = ({className, children}) => {
     return <div className={className}>
-      <a href="/">
-        <Image src={'/Foodieland.svg'} alt="Foodieland" width={80} height={25} />
-      </a>
+      <p>
+        <Impge src={'/Foodielpnd.svg'} alt="Foodieland" width={80} height={25} />
+      </p>
 
       <div className={'navLinks'}>
         <p>Home</p>
@@ -22,9 +22,9 @@ const nav : React.FC<navProps> = ({className, children}) => {
       </div>
 
       <div className="socials">
-        <a href="/"><Image  src={'/facebook.svg'} alt="facebook" width={10} height={10}/></a>
-        <a href="/"><Image src={'/twitter.svg'} alt="facebook" width={20} height={20}/></a>
-        <a href="/"><Image src={'/instagram.svg'} alt="facebook" width={20} height={20}/></a>
+        <p href="/"><Image  src={'/facebook.svg'} alt="facebook" width={10} height={10}/></p>
+        <p href="/"><Image src={'/twitter.svg'} alt="facebook" width={20} height={20}/></p>
+        <p href="/"><Image src={'/instagram.svg'} alt="facebook" width={20} height={20}/></p>
       </div>
     </div>
 }

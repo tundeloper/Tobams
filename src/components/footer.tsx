@@ -28,9 +28,9 @@ const footer : React.FC<footerProps> = ({className, children}) => {
         <div></div>
         <div>© 2020 Flowbase. Powered by<span style={{color: 'red'}}> Webflow</span></div>
         <div className="socials">
-        <a href="/"><Image  src={'/facebook.svg'} alt="facebook" width={10} height={10}/></a>
-        <a href="/"><Image src={'/twitter.svg'} alt="facebook" width={20} height={20}/></a>
-        <a href="/"><Image src={'/instagram.svg'} alt="facebook" width={20} height={20}/></a>
+        <p><Image  src={'/facebook.svg'} alt="facebook" width={10} height={10}/></p>
+        <p><Image src={'/twitter.svg'} alt="facebook" width={20} height={20}/></p>
+        <p><Image src={'/instagram.svg'} alt="facebook" width={20} height={20}/></p>
       </div>
       </div>
     </footer>
