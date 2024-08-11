@@ -17,7 +17,7 @@ export default function Home() {
     >
       <StyledNav />
       <div style={{background: '#e7fafe',}}>
-        <NoSSRComponent />
+        {/* <NoSSRComponent /> */}
       </div>
     </main>
   );
