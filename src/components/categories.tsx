@@ -9,7 +9,7 @@ interface navProps {
 }
 
 const categories_data: {name: string, image: string, color: string}[] = [
-    {name: 'Breakfast', image: 'breakfast.svg', color: '#e7fafe'},
+    {name: 'Breakfast', image: 'Breakfast.svg', color: '#e7fafe'},
     {name: 'Vegan', image: 'vegan.svg',  color: '#f2faee'},
     {name: 'Meat', image: 'meat.svg',  color: '#fbeceb'},
     {name: 'Dessert', image: 'dessert.svg',  color: '#fef7e9'},
