@@ -22,12 +22,12 @@ const meals : React.FC<mealsProps> = ({className, children}) => {
       <ul className="grid-container">
         {meals_data.map(data => {
             return<li className="grid-item" key={data.name}>
-                <div><Image src={data.image} height={4000} width={70} className="meal_img" /></div>
+                <div><Image src={data.image} height={4000} width={70} className="meal_img" alt="image" /></div>
                 <div className="meals_description">
                     <h2>{data.name}</h2>
                     <div>
-                        <div><Image src={'/Timer.svg'}  width={10}  height={10} className="img" />{data.time}</div>
-                        <div><Image src={'/ForkKnife.svg'}  width={5}  height={5} className="img" />{data.meal}</div>
+                        <div><Image src={'/Timer.svg'}  width={10}  height={10} className="img" alt="image" />{data.time}</div>
+                        <div><Image src={'/ForkKnife.svg'}  width={5}  height={5} className="img" alt="image" />{data.meal}</div>
                     </div>
                 </div>
             </li>
