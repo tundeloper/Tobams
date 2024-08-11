@@ -29,7 +29,7 @@ const category : React.FC<navProps> = ({className}) => {
                 background: `linear-gradient(transparent, ${data.color})`,
             } 
             return<li className="grid-item" key={data.name} style={gradientStyles}>
-                <div><Image src={data.image} width={70} height={70} /></div>
+                <div><Image src={data.image} width={70} height={70} alt="image"/></div>
                 <div style={{fontWeight: '600'}}>{data.name}</div>
             </li>
         }))}

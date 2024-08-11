@@ -12,18 +12,18 @@ const landing : React.FC<landingProps> = ({className, children}) => {
     return <div className={className}>
         <div className="text">
             <div className="first">
-                <Image src='/slider.svg' width={20} height={20} />  
+                <Image src='/slider.svg' width={20} height={20} alt="image" />  
                 <p>Hot Recipes</p> 
             </div>
             <h1>Spicy delicious chicken wings</h1>
             <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
             <div style={{display: "flex", alignItems: 'center', gap: '2rem', marginTop: '2rem'}}>
-                <div style={{display: 'flex', gap: '1rem'}}><Image src={'/Timer.svg'}  width={25}  height={25} />30 Minutes</div>
-                <div style={{display: 'flex', gap: '1rem'}}><Image src={'/ForkKnife.svg'}  width={25}  height={25} />Chicken</div>
+                <div style={{display: 'flex', gap: '1rem'}}><Image src={'/Timer.svg'}  width={25}  height={25} alt="image" />30 Minutes</div>
+                <div style={{display: 'flex', gap: '1rem'}}><Image src={'/ForkKnife.svg'}  width={25}  height={25} alt="image" />Chicken</div>
             </div>
             <div style={{display: 'flex', justifyContent: 'space-between', marginTop: '4.5rem'}}>
                 <div style={{display: 'flex', gap: '1rem'}}>
-                    <Image src='/slider.svg' width={20} height={20} />
+                    <Image src='/slider.svg' width={20} height={20} alt="image" />
                     <div>
                         <p style={{fontWeight: '600'}}>John Smith</p>
                         <p style={{fontWeight: '600'}}>15 March 2022</p>
@@ -34,7 +34,7 @@ const landing : React.FC<landingProps> = ({className, children}) => {
             </div>
         </div>
         <div style={{width: '50%', overflow: 'hidden'}}>
-            <Image src='/slider.svg' width={20} height={20} className="img"/>
+            <Image src='/slider.svg' width={20} height={20} className="img" alt="image"/>
         </div>
     </div>
 }

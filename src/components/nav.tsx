@@ -22,9 +22,9 @@ const nav : React.FC<navProps> = ({className, children}) => {
       </div>
 
       <div className="socials">
-        <p href="/"><Image  src={'/facebook.svg'} alt="facebook" width={10} height={10}/></p>
-        <p href="/"><Image src={'/twitter.svg'} alt="facebook" width={20} height={20}/></p>
-        <p href="/"><Image src={'/instagram.svg'} alt="facebook" width={20} height={20}/></p>
+        <p><Image  src={'/facebook.svg'} alt="facebook" width={10} height={10}/></p>
+        <p><Image src={'/twitter.svg'} alt="facebook" width={20} height={20}/></p>
+        <p><Image src={'/instagram.svg'} alt="facebook" width={20} height={20}/></p>
       </div>
     </div>
 }
