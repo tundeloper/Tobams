@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { ReactNode } from "react";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
+// import Link from `next/link`;
 
 interface navProps {
     className?: string,
@@ -15,10 +15,10 @@ const nav : React.FC<navProps> = ({className, children}) => {
       </a>
 
       <div className={'navLinks'}>
-        <a href="Home">Home</a>
-        <a href="Recipes">Recipes</a>
-        <a href="Recipes">Contact</a>
-        <a href="Recipes">About Us</a>
+        <p>Home</p>
+        <p >Recipes</p>
+        <p>Contact</p>
+        <p>About Us</p>
       </div>
 
       <div className="socials">
@@ -35,6 +35,7 @@ const StyledNav = styled(nav)`
 display: flex;
 justify-content: space-between;
 align-items: center;    
+margin-bottom: '2rem';
 
 .navLinks {
     display: flex;

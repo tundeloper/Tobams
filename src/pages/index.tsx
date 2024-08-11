@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import StyledNav from "@/components/nav";
-import SwipeableTextMobileStepper from "@/components/slider/slider";
+import StyledNav from "../components/nav";
+import SwipeableTextMobileStepper from "../components/slider/slider";
 
 const inter = Inter({ subsets: ["latin"] });
 
