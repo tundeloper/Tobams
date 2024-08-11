@@ -10,9 +10,9 @@ import StyledForm from "../components/form/form";
 import StyledFooter from "../components/footer";
 import StyledLanding from "../components/landing";
 
-const NoSSRComponent = dynamic(() => import('../components/slider/slider'), {
-  ssr: false,
-});
+// const NoSSRComponent = dynamic(() => import('../components/slider/slider'), {
+//   ssr: false,
+// });
 
 const inter = Inter({ subsets: ["latin"] });
 
