@@ -1,4 +1,3 @@
-import { red } from "@mui/material/colors";
 import Image from "next/image";
 import React, { ReactNode } from "react";
 import styled from "styled-components";
@@ -24,9 +23,9 @@ const footer : React.FC<footerProps> = ({className, children}) => {
         </div>
       </div>
 
-      <div>
+      <div style={{marginTop: '3rem', paddingTop: '2rem', borderTop: '1px solid #e0dada'}}>
         <div></div>
-        <div>© 2020 Flowbase. Powered by<span style={{color: 'red'}}> Webflow</span></div>
+        <div>© 2020 Flowbase. Powered by <span style={{color: 'red'}}>Webflow</span></div>
         <div className="socials">
         <p><Image  src={'/facebook.svg'} alt="facebook" width={10} height={10}/></p>
         <p><Image src={'/twitter.svg'} alt="facebook" width={20} height={20}/></p>
@@ -43,8 +42,7 @@ margin-top: 5rem;
 
 div {
     display: flex;
-    justify-content: space-between;
-    // padding-bottom: 3rem;
+    justify-content: space-between
 }
 
 .logo {
@@ -58,11 +56,11 @@ div {
     gap: 2rem;
     font-weight: 600;
 }
-
 .socials {
     display: flex;
     gap: 1rem;
     align-items: center;
+    // padding-top: 3rem;
 }
 `
 export default StyledFooter
