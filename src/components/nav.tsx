@@ -22,7 +22,7 @@ const nav : React.FC<navProps> = ({className, children}) => {
       </div>
 
       <div className="socials">
-        <a href="/"><Image src={'/facebook.svg'} alt="facebook" width={10} height={10}/></a>
+        <a href="/"><Image  src={'/facebook.svg'} alt="facebook" width={10} height={10}/></a>
         <a href="/"><Image src={'/twitter.svg'} alt="facebook" width={20} height={20}/></a>
         <a href="/"><Image src={'/instagram.svg'} alt="facebook" width={20} height={20}/></a>
       </div>
@@ -37,7 +37,7 @@ justify-content: space-between;
 align-items: center;    
 margin-bottom: '2rem';
 padding: 2.5rem 2rem 2.5rem 2rem;
-border-bottom: 1px solid grey;
+border-bottom: 1px solid #e0dada;
 
 .navLinks {
     display: flex;

@@ -5,6 +5,9 @@ import StyledNav from "../components/nav";
 import dynamic from 'next/dynamic';
 import StyledCategories from "../components/categories";
 import StyledMeals from "../components/meals";
+import StyledCheff from "../components/cheffs";
+import StyledForm from "../components/form/form";
+import StyledFooter from "../components/footer";
 
 const NoSSRComponent = dynamic(() => import('../components/slider/slider'), {
   ssr: false,
@@ -19,7 +22,7 @@ export default function Home() {
       style={{margin: ".5rem 2rem .5rem 2rem"}}
     >
       <div style={{background: '#e7fafe',}}>
-        <NoSSRComponent />
+        {/* <NoSSRComponent /> */}
       </div>
       <StyledCategories />
       <div style={{display: "block", textAlign: 'center', marginTop: '5rem',}}>
@@ -27,6 +30,18 @@ export default function Home() {
         <p style={{}}>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
       </div>
       <StyledMeals />
+      <StyledCheff />
+      <div style={{display: "block", textAlign: 'center', marginTop: '5rem',}}>
+        <h2 style={{fontWeight: '800',fontSize: '2.3rem'}}>Check out @foodieland on Instagram</h2>
+        <p style={{}}>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+      </div>
+      <div style={{display: 'flex', justifyContent: 'space-between', gap: '2rem', marginTop: '5rem'}}>
+        <h2 style={{fontSize: '2.5rem', fontWeight: 700, width: '40%'}}>Try this delicious recipe to make your day</h2>
+        <p style={{width: '40%'}}>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+      </div>
+      <StyledMeals />
+      <StyledForm />
+      <StyledFooter />
     </main>
   );
 }
