@@ -17,8 +17,6 @@ This project is dummy assessment application built with Next.js. The slider allo
 - [Contact](#contact)
 
 ## Features
-
-- [List of features, e.g.,]
   - Responsive image slider <!-- removed in the deployed version -->
   - Display of images with corresponding text
   - Auto-play and manual navigation
@@ -56,16 +54,15 @@ This project is dummy assessment application built with Next.js. The slider allo
     npm install
 3. Open the application in your browser at http://localhost:3000.
 4. Deployed Application
-    ```bash
     https://tobams-tan.vercel.app/
 
 ### Folder Structure
-|-- components/     # Reusable React components
-|-- assets/         # Images, fonts, etc.
-|-- styles/         # CSS files
-|-- tests/          # Unit tests
-|-- App.js          # Main app component
-|-- index.js        # Entry point of the application
+|-- components/     
+|-- assets/         
+|-- styles/         
+|-- tests/          
+|-- App.js          
+|-- index.js
 
 ### Contributions 
 contribution to this project are welcome and encouraged! Whether you’ve found a bug, have an idea for a new feature, or want to improve the code quality, your input is valuable.
