@@ -8,6 +8,7 @@ import StyledMeals from "../components/meals";
 import StyledCheff from "../components/cheffs";
 import StyledForm from "../components/form/form";
 import StyledFooter from "../components/footer";
+import StyledLanding from "../components/landing";
 
 const NoSSRComponent = dynamic(() => import('../components/slider/slider'), {
   ssr: false,
@@ -23,6 +24,7 @@ export default function Home() {
     >
       <div style={{background: '#e7fafe',}}>
         {/* <NoSSRComponent /> */}
+        <StyledLanding />
       </div>
       <StyledCategories />
       <div style={{display: "block", textAlign: 'center', marginTop: '5rem',}}>
