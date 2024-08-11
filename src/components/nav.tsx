@@ -11,7 +11,7 @@ interface navProps {
 const nav : React.FC<navProps> = ({className, children}) => {
     return <div className={className}>
       <p>
-        <Image src={'/Foodielpnd.svg'} alt="Foodieland" width={80} height={25} />
+        <Image src={'/Foodieland.svg'} alt="Foodieland" width={80} height={25} />
       </p>
 
       <div className={'navLinks'}>
