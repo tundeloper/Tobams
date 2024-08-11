@@ -1,7 +1,12 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import StyledNav from "../components/nav";
-import SwipeableTextMobileStepper from "../components/slider/slider";
+// import SwipeableTextMobileStepper from "../components/slider/slider";
+import dynamic from 'next/dynamic';
+
+const NoSSRComponent = dynamic(() => import('../components/slider/slider'), {
+  ssr: false,
+});
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,7 +17,7 @@ export default function Home() {
     >
       <StyledNav />
       <div style={{background: '#e7fafe',}}>
-        <SwipeableTextMobileStepper />
+        <NoSSRComponent />
       </div>
     </main>
   );
