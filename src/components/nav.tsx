@@ -36,6 +36,8 @@ display: flex;
 justify-content: space-between;
 align-items: center;    
 margin-bottom: '2rem';
+padding: 2.5rem 2rem 2.5rem 2rem;
+border-bottom: 1px solid grey;
 
 .navLinks {
     display: flex;
