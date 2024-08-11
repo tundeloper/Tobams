@@ -23,14 +23,14 @@ const landing : React.FC<landingProps> = ({className, children}) => {
             </div>
             <div style={{display: 'flex', justifyContent: 'space-between', marginTop: '4.5rem'}}>
                 <div style={{display: 'flex', gap: '1rem'}}>
-                    <Image src='/slider.svg' width={20} height={20} alt="image" />
+                    <Image src='/john.svg' width={50} height={50} alt="john" />
                     <div>
                         <p style={{fontWeight: '600'}}>John Smith</p>
                         <p style={{fontWeight: '600'}}>15 March 2022</p>
                     </div>  
 
                 </div>
-                <div style={{fontWeight: '600'}}>View Recipe</div>
+                <div style={{fontWeight: '600', background: 'black', color: 'white', padding: '.7rem 1rem', borderRadius: '1rem'}}>View Recipe</div>
             </div>
         </div>
         <div style={{width: '50%', overflow: 'hidden'}}>
