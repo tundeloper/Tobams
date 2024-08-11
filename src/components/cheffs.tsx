@@ -16,7 +16,6 @@ const cheff : React.FC<chefProps> = ({className, children}) => {
             <button>Learn more</button>
         </div>
         <Image src={'/cheff.svg'} height={20} width={20} className="cheff_img" alt="image" />
-      
     </div>
 }
 
