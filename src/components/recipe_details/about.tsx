@@ -41,14 +41,14 @@ const about : React.FC<aboutProps> = ({className}) => {
        <div className="print">
         <div>
             <div  style={{background: '#e7fafe',padding: '1.5rem', borderRadius: '100%', cursor: 'pointer'}}>
-                <Image src={'/video_.svg'} alt='print' height={30} width={30} style={{borderRadius: '100%'}} />
+                <Image src={'/printer.svg'} alt='print' height={25} width={25} style={{borderRadius: '100%'}} />
                 </div>
             <p style={{textAlign: 'center'}}>PRINT</p>
         </div>
 
         <div>
             <div  style={{background: '#e7fafe',padding: '1.5rem', borderRadius: '100%', cursor: 'pointer'}}>
-                <Image src={'/video_.svg'} alt='print' height={30} width={30} style={{borderRadius: '100%'}} />
+                <Image src={'/share.svg'} alt='print' height={25} width={25} style={{borderRadius: '100%'}} />
                 </div>
             <p style={{textAlign: 'center'}}>SHARE</p>
         </div>

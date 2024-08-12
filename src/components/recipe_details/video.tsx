@@ -48,7 +48,7 @@ display: flex;
 justify-content: space-between;
 gap: 2rem;
 overfolow: hidden;
-margin-top: 3rem;
+margin-top: 4rem;
 .video {
     width: 100%;
     height: 25rem;
