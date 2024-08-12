@@ -10,22 +10,44 @@ interface aboutProps {
 const about : React.FC<aboutProps> = ({className}) => {
     return <div className={className} >
        <div className="content">
-        <div><h1 style={{textAlign: 'center', fontWeight: '700', fontSize: '1.5rem'}}>Health Japanese Fried Rice</h1></div>
-        <div className="cheff">
-        <div>image</div>
-        <div>text</div>
+        <div><h1 style={{fontWeight: '700', fontSize: '1.5rem'}}>Health Japanese Fried Rice</h1></div>
+        <div style={{display: 'flex', gap: '1rem'}}>
+
+        <div style={{display: 'flex', gap: '1rem', paddingRight: '1rem', borderRight: '1px solid green',}}>
+            <Image src='/john.svg' width={50} height={50} alt="john" />
+        <div>
+            <p style={{fontWeight: '600'}}>John Smith</p>
+            <p style={{fontWeight: '600'}}>15 March 2022</p>
+        </div>  
+        </div>
+        <div style={{display: 'flex', gap: '1rem', paddingRight: '1rem', borderRight: '1px solid green',}}>
+            <Image src='/Timer.svg' width={30} height={30} alt="john" />
+        <div>
+            <p style={{fontWeight: '600'}}>PREP TIME</p>
+            <p style={{fontWeight: '600'}}>15 Minutes</p>
+        </div>  
+        </div>
+        <div style={{display: 'flex', gap: '1rem', paddingRight: '1rem', borderRight: '1px solid green',}}>
+            <Image src='/ForkKnife.svg' width={30} height={30} alt="john" />
+        <div>
+            <p style={{fontWeight: '600'}}>COOK TIME</p>
+            <p style={{fontWeight: '600'}}>15 Minutes</p>
+        </div>  
+        </div>
+        
+        
         </div>
        </div>
        <div className="print">
         <div>
-            <div  style={{background: '#e7fafe',padding: '1rem', borderRadius: '100%', cursor: 'pointer'}}>
+            <div  style={{background: '#e7fafe',padding: '1.5rem', borderRadius: '100%', cursor: 'pointer'}}>
                 <Image src={'/video_.svg'} alt='print' height={30} width={30} style={{borderRadius: '100%'}} />
                 </div>
             <p style={{textAlign: 'center'}}>PRINT</p>
         </div>
 
         <div>
-            <div  style={{background: '#e7fafe',padding: '1rem', borderRadius: '100%', cursor: 'pointer'}}>
+            <div  style={{background: '#e7fafe',padding: '1.5rem', borderRadius: '100%', cursor: 'pointer'}}>
                 <Image src={'/video_.svg'} alt='print' height={30} width={30} style={{borderRadius: '100%'}} />
                 </div>
             <p style={{textAlign: 'center'}}>SHARE</p>
@@ -50,6 +72,11 @@ align-items: center;
 .print {
     display: flex;
     gap: 2rem;
+}
+
+.cheff {
+    display: 'flex';
+    flex-direction: 'column;
 }
 `
 
