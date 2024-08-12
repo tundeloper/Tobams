@@ -16,8 +16,8 @@ const form : React.FC<formprrops> = ({className, children}) => {
             <input placeholder="Your email address..."></input>
             <button>Subscribe</button>
         </div>
-        <Image src='/form-left.svg' height={200} width={200} alt="left" className="left"/>
-        <Image src='/form-right.svg' height={200} width={200} alt="right" className="right"/>        
+        <Image src='/form-left.svg' height={210} width={210} alt="left" className="left"/>
+        <Image src='/form-right.svg' height={210} width={210} alt="right" className="right"/>        
     </div>
 }
 
@@ -31,8 +31,8 @@ flex-direction: column;
 background-color: #e7fafe;
 padding: 5rem;
 position: relative;
-overflox: hidden;
-
+overflow: hidden;
+border-radius: 1rem;
 
 h1 {
     font-size: 2.5rem;

@@ -30,7 +30,10 @@ const landing : React.FC<landingProps> = ({className, children}) => {
                     </div>  
 
                 </div>
-                <div style={{fontWeight: '600', background: 'black', color: 'white', padding: '.7rem 1rem', borderRadius: '1rem'}}>View Recipe</div>
+                <button style={{fontWeight: '600', display: 'flex', gap: '.5rem', alignItems: 'center', background: 'black', color: 'white', padding: '.7rem 1rem', borderRadius: '1rem'}}>
+                    View Recipe
+                    <Image src='/PlayCircle.svg' alt='play' height={20} width={20} />
+                </button>
             </div>
         </div>
         <div style={{width: '50%', overflow: 'hidden'}}>
