@@ -1,5 +1,6 @@
 import React, { ReactNode } from "react";
 import styled from "styled-components";
+import Image from "next/image";
 // import Link from `next/link`;
 
 interface formprrops {
@@ -15,7 +16,8 @@ const form : React.FC<formprrops> = ({className, children}) => {
             <input placeholder="Your email address..."></input>
             <button>Subscribe</button>
         </div>
-        
+        <Image src='/form-left.svg' height={200} width={200} alt="left" className="left"/>
+        <Image src='/form-right.svg' height={200} width={200} alt="right" className="right"/>        
     </div>
 }
 
@@ -61,6 +63,18 @@ button {
     padding: 1.5rem;
     border-radius: .7rem;
     color: white;
+}
+
+.left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 `
 export default StyledForm
