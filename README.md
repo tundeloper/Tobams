@@ -19,7 +19,7 @@ This project is dummy assessment application built with Next.js. The slider allo
 ## Features
   - Responsive image slider <!-- removed in the deployed version -->
   - Display of images with corresponding text
-  - Auto-play and manual navigation
+  - Auto-play and manual navigation  <!-- Navigate to /recipe_details mnually to see the detals page -->
 
 ## Technologies Used
 
@@ -54,7 +54,8 @@ This project is dummy assessment application built with Next.js. The slider allo
     npm install
 3. Open the application in your browser at http://localhost:3000.
 4. Deployed Application
-    https://tobams-tan.vercel.app/
+    https://fluffy-mousse-b7bb1a.netlify.app home / 
+5. Navigate to https://fluffy-mousse-b7bb1a.netlify.app/recipe_details to see the detals page /recipe_details
 
 ### Folder Structure
 |-- components/     
@@ -89,7 +90,7 @@ contribution to this project are welcome and encouraged! Whether you’ve found 
    - Go to the original repository on GitHub and submit a pull request, describing the changes you’ve made and why they should be merged.
 
 ### Purpose
-This project serves as a technical assessment to showcase the ability to create an interactive frontend application with React. The focus is on building reusable components, managing application state, and implementing user-friendly features in a visually appealing manner.
+This project serves as a technical assessment to showcase the ability to create an interactive frontend application with Next. The focus is on building reusable components, managing application state, and implementing user-friendly features in a visually appealing manner.
 
 
 
